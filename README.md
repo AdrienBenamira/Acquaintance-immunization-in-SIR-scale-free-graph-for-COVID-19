@@ -2,6 +2,9 @@
 
 Slides + Demo
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AdrienBenamira/Acquaintance-immunization-in-SIR-scale-free-graph-for-COVID-19/blob/master/demo_online.ipynb)
+
+
 # Reference
 
 ```
