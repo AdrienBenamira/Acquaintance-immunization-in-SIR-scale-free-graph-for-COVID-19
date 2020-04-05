@@ -1,11 +1,44 @@
 # Acquaintance-immunization-in-SIR-scale-free-graph-for-COVID-19
 
-Slides + Demo
+## Slides + Demo
+
+Please look at the slides for more infos
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AdrienBenamira/Acquaintance-immunization-in-SIR-scale-free-graph-for-COVID-19/blob/master/demo_online.ipynb)
 
+## Worst case scenario: temproal results
 
-# Reference
+![img1](https://github.com/AdrienBenamira/Acquaintance-immunization-in-SIR-scale-free-graph-for-COVID-19/blob/master/img/Epidemic%20curve%20over%20time%20if%20nothing%20happens.png)
+
+#### Comments : 
+
+1- If nothing is done, according this modelisation (imperfect of course), we will finish  with 69% of the population removed. That’s perfectly match with the worst case scenario proposed by the [NYT](https://www.nytimes.com/2020/03/13/us/coronavirus-deaths-estimate.html): 224 millions Americans can be infected by the virus vs 226 millions with this estimation.
+
+2- With no exterior agent, the epidemic should stop a time 18, which represent 60% of the population removed. That's means, if 60% of our population is removed, the endemic state is over.
+
+
+
+## Answer to the question: If a vaccine against CO-VID is found tomorrow, which vaccination strategy leads to the suppression of the endemic state for a lowest immunization rate ?
+
+Comparaison strategies
+
+![img1](https://github.com/AdrienBenamira/Acquaintance-immunization-in-SIR-scale-free-graph-for-COVID-19/blob/master/img/plot%20final%20comparaison%20strategy.png)
+
+
+|                                                                                    | Random | Targeted |  Acquitance K = 20% |
+|:----------------------------------------------------------------------------------:|:------:|:--------:|:-------------------:|
+| Percentage of the population  vaccinacte in order to stop the endemic state |  85%`  |    5%    |         30%         |
+
+
+#### Comments : 
+
+1- Random immunisation is not an efficient strategy
+
+2- Targeted the hubs of the networks are super efficient strategy, but implies that we know the graph (which is not true)
+
+3- Acquitance strategy gives good results and this strategy is purely local, requiring minimal information about randomly selected nodes and their immediate environment.
+
+## References
 
 ```
 @article{cohen2003structural,
