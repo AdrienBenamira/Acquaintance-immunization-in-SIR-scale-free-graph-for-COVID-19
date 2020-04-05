@@ -49,6 +49,8 @@ Slides + Demo
 ```
 
 [Simulate an empidemie  - 3Blue1Brown](https://www.youtube.com/watch?v=gxAaO2rsdIs&t=549s)
+
+
 [Github repo](https://github.com/maufadel/SIR_on_Gnutella)
 
 
