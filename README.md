@@ -4,7 +4,7 @@
 
 Please look at the slides for more infos
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/AdrienBenamira/Acquaintance-immunization-in-SIR-scale-free-graph-for-COVID-19/blob/master/demo_online.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/AdrienBenamira/Acquaintance-immunization-in-SIR-scale-free-graph-for-COVID-19/blob/master/demo_online.ipynb)
 
 ## Worst case scenario: temproal results
 
